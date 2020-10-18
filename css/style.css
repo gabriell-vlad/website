@@ -1,0 +1,88 @@
+html,body {
+  height: 100%;
+  font-family: regular;
+  color: #3c3836;
+  background-image: linear-gradient(to bottom,#fbf1c7,#a89984);
+  margin : 0;
+}
+
+ul.topnav {
+  font-family: bold;
+  
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #d5c4a1;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  
+  display: block;
+  color: #504945;
+  text-align: center;
+  padding: 10px 20px;
+  font-size: 140%;
+
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #ebdbb2;}
+
+ul.topnav li a.active {background-color: #f9f5d7;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+
+div.text-box{
+
+justify-content: center;
+align-items: center;
+margin: 0 auto;
+}
+div.head-row{
+width: 40%;
+padding-top: 50px;
+padding-left: 10%;
+padding-bottom: 30px;
+justify-content: left;
+align-items: left;
+font-size: 300%;
+
+}
+
+table.content {
+  border: none;
+}
+td.text-box{
+  padding-left: 40px;
+  padding-right: 20px;
+  width: 60%;
+  background-color: #ebdbb2;
+  
+}
+td.left-column {
+  
+  width: 20%;
+  text-align: justify;
+  vertical-align: text-top;
+  
+}
+td.right-column {
+  font-family: light;
+  width: 20%;
+  text-align: left;
+  vertical-align: bottom;
+  padding-left: 2.5%;
+  padding-bottom: 2%;
+
+}
+a {
+  text-decoration:none;
+}
+
